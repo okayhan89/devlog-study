@@ -18,6 +18,49 @@ export default function sitemap() {
       changeFrequency: "daily",
       priority: 0.8,
     },
+    // 블로그 포스트들
+    {
+      url: `${baseUrl}/posts/http-vs-https`,
+      lastModified: "2024-11-10",
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/posts/process-and-thread`,
+      lastModified: "2024-11-10",
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/posts/what-is-rest-api`,
+      lastModified: "2024-11-10",
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/posts/operating-system-for-kids`,
+      lastModified: "2024-11-09",
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/posts/coding-test-roadmap`,
+      lastModified: "2024-11-11",
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/posts/frontend-interview-guide`,
+      lastModified: "2024-11-11",
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/posts/backend-interview-guide`,
+      lastModified: "2024-11-11",
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
     {
       url: `${baseUrl}/about`,
       lastModified: currentDate,
@@ -30,7 +73,5 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.5,
     },
-    // 여기에 블로그 포스트들을 동적으로 추가할 수 있습니다
-    // 예: posts.map(post => ({ url: `${baseUrl}/posts/${post.slug}`, ... }))
   ];
 }
