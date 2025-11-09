@@ -85,8 +85,7 @@ export const metadata = {
 
   // 추가 메타 태그
   other: {
-    "google-site-verification":
-      "PbzzlLob4xr1j5ocO4fHNCgKqLY5NX8RWXrdZm7z2CQ-0vaY", // Google Search Console 인증 코드
+    "google-site-verification": "PbzzlLob4xr1j5ocO4fHNCgKqLY5NX8RWXrdZm7z2CQ", // Google Search Console 인증 코드
     "naver-site-verification": "your-naver-verification-code", // 네이버 웹마스터 인증 코드
   },
 };
